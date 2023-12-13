@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# Shopping Cart Manager
+Here is a React.js application that allows users to manage shopping cart items. the applicvation provides features such as adding products to the cart, adjusting the quantity, removing items and applying coupon discounts. The cart's state persist even upon page refresh.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Screenshot from 2023-12-13 12-04-17](https://github.com/Dannyswiss1/Web3Bride-cart-manager/assets/137540755/9b84a1a8-178b-480c-8428-a1d973c6733e)
+![Screenshot from 2023-12-13 12-04-33](https://github.com/Dannyswiss1/Web3Bride-cart-manager/assets/137540755/0fba0168-8850-4f26-b367-5d21d2ed37fb)
+![Screenshot from 2023-12-13 12-04-49](https://github.com/Dannyswiss1/Web3Bride-cart-manager/assets/137540755/210d1681-1c52-4ee1-a953-9d02e8ba7ef7)
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
+## Getting Started
+To run the application locally, follow these steps:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Prerequisites
+* Node.js installed in your machine
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Installation
+1. Clone the repo to your local machine:
+   git clone `https://github.com/Dannyswiss1/Web3bridge-cart-manager.git`
+2. Navigate to the project directory:
+   cd react-shopping-cart-app
 
-### `npm test`
+  1. Install dependencies:
+     npm install
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Running the Application
+Start the development server:
+  npm start
+Open your browser and visit `http://localhost:3000` to view the application.
 
-### `npm run build`
+## Usage
+ * Browse the list of products on the home page.
+ * In the shopping cart, adjust the quantity of items using the "+" and "-" buttons.
+ * Remove items from the cart by clicking the "Remove" button.
+ * Enter a valid coupon code in the input field and click "Apply Coupon" to get a discount.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Features
+  * Display a list of products with names and amounts.
+  * Add products to the shopping cart.
+  * Adjust the quantity of items in the cart.
+  * Remove items from the cart.
+  * View the total amount of products in the cart.
+  * Apply a coupon code for a discount.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Persistence
+    The shopping cart state is stored in the local storage, ensuring that the cart persists even when the page is refreshed.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Contributing
+Contributions are welcome! Feel free to open issues or submit pull requests.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## License
+This project is licensed under the MIT License.
