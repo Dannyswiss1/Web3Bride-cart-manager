@@ -64,16 +64,16 @@ const ShoppingCart = ({
 
 const App = () => {
   const initialProducts = [
-    { id: 1, name: "32 Inch Television", amount: 100.0 },
-    { id: 2, name: "38 Inch Television", amount: 150.0 },
-    { id: 3, name: "40 Inch Television", amount: 220.0 },
-    { id: 4, name: "5WATT LED bulb", amount: 10.0 },
-    { id: 5, name: "10WATT LED bulb", amount: 15.0 },
-    { id: 6, name: "20WATT LED bulb", amount: 20.0 },
+    { id: 1, name: "32 inch Television", amount: 100.0 },
+    { id: 2, name: "38 inch Television", amount: 150.0 },
+    { id: 3, name: "40 inch Television", amount: 220.0 },
+    { id: 4, name: "5 watt LED bulb", amount: 10.0 },
+    { id: 5, name: "10 watt LED bulb", amount: 15.0 },
+    { id: 6, name: "20 watt LED bulb", amount: 20.0 },
     { id: 7, name: "15 litre Microwave", amount: 30.0 },
     { id: 8, name: "20 litre Microwave", amount: 60.0 },
     { id: 9, name: "30 litre Microwave", amount: 90.0 },
-    { id: 9, name: "30 litre Kettle", amount: 50.0 }
+    { id: 9, name: "30 litre Kettle", amount: 50.0 },
   ];
 
   const [products] = useState(initialProducts);
@@ -133,8 +133,8 @@ const App = () => {
   };
 
   return (
-    <div>
-      <h1>React Shopping Cart</h1>
+    <div className="CartApp">
+      <h1>Shopping Cart Manager</h1>
       <ProductList products={products} addToCart={addToCart} />
       <ShoppingCart
         cart={cart}
