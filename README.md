@@ -9,10 +9,10 @@ Here is a React.js application that allows users to manage shopping cart items. 
 
 ## Getting Started
 To run the application locally, follow these steps:
-
+         
 ### Prerequisites
 * Node.js installed in your machine
-
+  
 ### Installation
 1. Clone the repo to your local machine:
    git clone `https://github.com/Dannyswiss1/Web3bridge-cart-manager.git`
